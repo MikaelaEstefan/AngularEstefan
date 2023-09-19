@@ -1,0 +1,16 @@
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+  
+.sidebar {
+    background-color: #7a9e5a;
+    width: 200px;
+
+}
+  
+.content {
+    flex-grow: 1; 
+    padding: 1rem; 
+}
+  
