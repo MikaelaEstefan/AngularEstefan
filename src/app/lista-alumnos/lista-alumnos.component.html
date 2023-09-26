@@ -1,0 +1,18 @@
+<table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Edad</th>
+        <th>Promedio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let alumno of alumnos" [ngClass]="{ 'destacado': alumno.promedio >= 90 }">
+        <td>{{ alumno.nombre }}</td>
+        <td>{{ alumno.edad }}</td>
+        <td>{{ alumno.promedio }}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
