@@ -11,5 +11,6 @@ export class ListaAlumnosComponent {
     { nombre: 'Juan', edad: 20, promedio: 85 },
     { nombre: 'María', edad: 22, promedio: 92 },
     { nombre: 'Pedro', edad: 21, promedio: 78 },
+    { nombre: 'Ana', edad: 1, promedio: 98 }
   ];
 }
