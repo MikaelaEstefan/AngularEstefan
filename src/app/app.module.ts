@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
 import { ListaAlumnosComponent } from './lista-alumnos/lista-alumnos.component';
+import { EdadFormatPipe } from './edad-format.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ListaAlumnosComponent } from './lista-alumnos/lista-alumnos.component';
     FooterComponent,
     SidebarComponent,
     PageWrapperComponent,
-    ListaAlumnosComponent
+    ListaAlumnosComponent,
+    EdadFormatPipe
   ],
   imports: [
     BrowserModule,
