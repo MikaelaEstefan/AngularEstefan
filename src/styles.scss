@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/scss/bootstrap";
 
 * {
     box-sizing: border-box;
@@ -6,3 +7,52 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.form-control {
+    border-color: #ced4da;
+}
+  
+.btn-primary {
+    background-color: #2f8241;
+    border-color: #1c6926;
+    font-size: 14px;
+}
+
+.btn-primary:hover {
+    background-color: #6bb57b;
+    border-color: #1c6926;
+}
+  
+.alert {
+    margin-top: 10px;
+}
+
+.alert.alert-danger {
+  background-color: #97d7a5; 
+  border-color: #2f8f3b; 
+  color: #254b31; 
+  padding: 8px 15px; 
+  border-radius: 4px; 
+  margin-top: 5px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+  
+.form-group:last-child {
+    margin-bottom: 30px; 
+}
+  
+.alert.alert-danger {
+    margin-top: 10px;
+}
+
+

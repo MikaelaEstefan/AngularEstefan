@@ -9,6 +9,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { PageWrapperComponent } from './page-wrapper/page-wrapper.component';
 import { ListaAlumnosComponent } from './lista-alumnos/lista-alumnos.component';
 import { EdadFormatPipe } from './edad-format.pipe';
+import { FormularioComponent } from './formulario/formulario.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 @NgModule({
   declarations: [
@@ -18,11 +22,13 @@ import { EdadFormatPipe } from './edad-format.pipe';
     SidebarComponent,
     PageWrapperComponent,
     ListaAlumnosComponent,
-    EdadFormatPipe
+    EdadFormatPipe,
+    FormularioComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
