@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms'; // Añade AbstractControl
+import { FormBuilder, FormGroup, Validators, AbstractControl } from '@angular/forms'; 
 
 @Component({
   selector: 'app-formulario',
